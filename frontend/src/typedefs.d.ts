@@ -1,3 +1,6 @@
 declare interface Window {
-  Pi: any;
+  Pi?: any;
+  PiNetwork?: {
+    environment: string;
+  };
 }
